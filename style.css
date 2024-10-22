@@ -1,0 +1,16 @@
+body{
+    background-image: url('https://cdn.pixabay.com/video/2024/06/07/215696_tiny.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.login-container {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
