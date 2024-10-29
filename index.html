@@ -102,19 +102,6 @@
                         <label for="comfirm_password">Comfirm password</label>
                         <input type="password"  id="comfirm_password" name="comfirm_password" required placeholder="Enter your  comfirm password">
                        </div>
-                       <script>
-                        function validatePassword() {
-                            
-                            if (password !== confirmPassword) {
-                                alert("Passwords do not match. Please try again.");
-                                return false; 
-                            }
-                            return true; 
-                        }
-                        let password = document.getElementById("password").value;
-                        let confirmPassword = document.getElementById("confirm_password").value;
-                
-                    </script>
                 
                        <div class="d-flex align-self-center col-2">
                         <button type="submit" class="btn btn-success">LOGIN</button> 
